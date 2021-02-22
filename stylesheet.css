@@ -1,0 +1,90 @@
+#home {
+    background-color: #FBE2E2;
+    height: 2685;
+}
+
+h1 {
+    position: absolute;
+width: 805px;
+height: 175px;
+left: 317px;
+top: 349px;
+font-family: Ubuntu Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 160px;
+line-height: 184px;
+text-align: center;
+color: #000000;
+}
+
+/* nav bar */
+
+nav {
+    height: 42px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+}
+
+#navback {
+    background-color: #EFBBBB;
+    margin-top: 0px;
+    width: auto;
+}
+
+a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* typewriter */
+.typewriter {
+    font-family: Ubuntu Condensed;
+    display: inline-block;
+}
+  
+.typewriter-text {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    margin-top: 350px;
+    margin-left: 380px;
+    white-space: nowrap;
+    font-size: 180;
+    font-weight: 700;
+    border-right: 4px solid rgb(228, 144, 176);
+    box-sizing: border-box;
+}
+  
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+  
+@keyframes blink {
+        from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color:rgb(228, 144, 176);; 
+    }
+}
+  
+
+
+
+
