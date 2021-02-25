@@ -1,5 +1,4 @@
-#home {
-    background-color: #FBE2E2;
+body {
     height: 2685;
 }
 
@@ -46,6 +45,11 @@ a:hover {
     color: white;
 }
 
+#home1 {
+    background-color: #FBE2E2;
+    height: 909px
+}
+
 /* typewriter */
 .typewriter {
     font-family: Ubuntu Condensed;
@@ -60,7 +64,7 @@ a:hover {
     margin-top: 350px;
     margin-left: 380px;
     white-space: nowrap;
-    font-size: 180;
+    font-size: 3000;
     font-weight: 700;
     border-right: 4px solid rgb(228, 144, 176);
     box-sizing: border-box;
@@ -85,6 +89,21 @@ a:hover {
 }
   
 
+#home2 {
+   background-color: #f3cfcf;
+   height: 909px
+}
+
+#pic1 {
+left: 100px;
+top: 75px;
+width: 620px;
+height: 755px;
+position: relative;
+filter: drop-shadow(10px 10px 30px #705252);
+}
 
 
-
+#home3 {
+    background-color: #FBE2E2;
+    height: 909px
