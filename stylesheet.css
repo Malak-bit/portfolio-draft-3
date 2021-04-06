@@ -1,5 +1,7 @@
 body {
     height: 2685;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -50,7 +52,7 @@ a:hover {
     height: 909px
 }
 
-/* typewriter */
+/* typewriter 
 .typewriter {
     font-family: Ubuntu Condensed;
     display: inline-block;
@@ -87,23 +89,43 @@ a:hover {
         border-color:rgb(228, 144, 176);; 
     }
 }
-  
 
 #home2 {
    background-color: #f3cfcf;
    height: 909px
 }
 
-#pic1 {
-left: 100px;
-top: 75px;
-width: 620px;
-height: 755px;
-position: relative;
-filter: drop-shadow(10px 10px 30px #705252);
-}
-
-
 #home3 {
     background-color: #FBE2E2;
-    height: 909px
+    height: 909px;
+}
+*/
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: orange;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: orange;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: orange; 
+	}
+}
