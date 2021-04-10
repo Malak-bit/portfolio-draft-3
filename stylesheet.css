@@ -2,28 +2,29 @@ body {
     height: 2685;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
     position: absolute;
-width: 805px;
-height: 175px;
-left: 317px;
-top: 349px;
-font-family: Ubuntu Condensed;
-font-style: normal;
-font-weight: normal;
-font-size: 160px;
-line-height: 184px;
-text-align: center;
-color: #000000;
+    width: 805px;
+    height: 175px;
+    left: 317px;
+    top: 349px;
+    font-family: Ubuntu Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 160px;
+    line-height: 184px;
+    text-align: center;
+    color: #000000;
 }
 
 /* nav bar */
 
 nav {
     height: 42px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #000000;
     font-size: 30px;
     text-align: center;
@@ -38,9 +39,9 @@ nav {
 }
 
 a {
-    font-family: 'Ubuntu Condensed', sans-serif;
     color: #000000;
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a:hover {
@@ -49,57 +50,19 @@ a:hover {
 
 #home1 {
     background-color: #FBE2E2;
-    height: 909px
-}
-
-/* typewriter 
-.typewriter {
-    font-family: Ubuntu Condensed;
-    display: inline-block;
-}
-  
-.typewriter-text {
-    display: inline-block;
-    overflow: hidden;
-    letter-spacing: 2px;
-    animation: typing 5s steps(30, end), blink .75s step-end infinite;
-    margin-top: 350px;
-    margin-left: 380px;
-    white-space: nowrap;
-    font-size: 3000;
-    font-weight: 700;
-    border-right: 4px solid rgb(228, 144, 176);
-    box-sizing: border-box;
-}
-  
-@keyframes typing {
-    from { 
-        width: 0% 
-    }
-    to { 
-        width: 100% 
-    }
-}
-  
-@keyframes blink {
-        from, to { 
-        border-color: transparent 
-    }
-    50% { 
-        border-color:rgb(228, 144, 176);; 
-    }
+    height: 1143px;
 }
 
 #home2 {
    background-color: #f3cfcf;
-   height: 909px
+   height: 1143px;
 }
 
 #home3 {
     background-color: #FBE2E2;
-    height: 909px;
+    height: 1143px
 }
-*/
+
 
 #container {
 	text-align: center;
@@ -107,18 +70,22 @@ a:hover {
 
 #text {
 	display: inline-block;
+    font-family: 'Roboto Mono', monospace;
 	vertical-align: middle;
-	color: orange;
+	color: black;
 	letter-spacing: 2px;
+    font-size: 200px;
+    margin-top: 200px;
 }
 
 #cursor {
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 50px;
-	background-color: orange;
+	height: 200px;
+	background-color:rgb(218, 116, 138);
 	animation: blink .75s step-end infinite;
+    margin-top: 200px;
 }
 
 @keyframes blink {
@@ -126,6 +93,10 @@ a:hover {
 		background-color: transparent 
 	}
 	50% { 
-		background-color: orange; 
+		background-color: rgb(218, 116, 138); 
 	}
+}
+
+#subtitle {
+    text-align: center;
 }
